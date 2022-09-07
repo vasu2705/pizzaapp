@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.ingredients{
+  position: absolute;
+  margin-top: -100px;
+}
+.chesse {
+  width: 100%;
+  position: absolute;
+}
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.z3 {
+  z-index: 3;
+}
+.z4 {
+  z-index: 4;
+}
+.font{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color:#CC4C21;
+}
+.form-switch .form-check-input {
+  height: 20px;
+  width: 60px;
+}
+.form-switch .form-check-input:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+ }
+.form-switch .form-check-input:checked {
+  background-color:#CC4C21;
+  border-color: #CC4C21;
+  border: 2px solid #F8E178;
+
+}
+.button{
+  margin:5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
+  background:#CC4C21;
+  color:#fff;
+  border:none;
+  border-radius: 2rem;
+}
+.button:hover{
+  border: 2px solid #CC4C21;
+  background: #fff;
+  color:#CC4C21;
+}
+.body-success{
+        text-align: center;
+        margin-top: 10px;
+        background: #fff;
+}
+h1 {
+  color:#CC4C21 ;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  color: #404F5E;
+  font-family: 'Poppins', sans-serif;
+  font-size:20px;
+  
+}
+i {
+color: #CC4C21;
+font-size: 100px;
+line-height: 200px;
+margin-left:-15px;
+}
+.card1 {
+background: white;
+border-radius: 4px;
+display: inline-block;
+}
